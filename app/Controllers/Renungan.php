@@ -2,12 +2,13 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Renungan extends BaseController
 {
     public function index()
     {
         echo view("template/header");
-        echo view("home/index");
+        echo view("renungan/index");
         echo view("template/footer");
     }
+    
 }

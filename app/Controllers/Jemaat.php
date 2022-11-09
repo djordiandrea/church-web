@@ -2,12 +2,13 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Jemaat extends BaseController
 {
     public function index()
     {
         echo view("template/header");
-        echo view("home/index");
+        echo view("jemaat/index");
         echo view("template/footer");
     }
+    
 }
