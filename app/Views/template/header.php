@@ -20,19 +20,19 @@
 				<a class="navbar-brand" href="<?php echo base_url() ?>">GEREJA KEHIDUPAN</a>
 			</div>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="<?php echo base_url() ?>/about" id="about">Tentang Kami</a></li> <!-- class="active" -->
-				<li><a href="<?php echo base_url() ?>/renungan" id="renungan">Renungan</a></li>
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="news">Berita & Peristiwa
+				<li id="about"><a href="<?php echo base_url() ?>/about">Tentang Kami</a></li> <!-- class="active" -->
+				<li id="renungan"><a href="<?php echo base_url() ?>/renungan">Renungan</a></li>
+				<li id="news" class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Berita & Peristiwa
 						<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="<?php echo base_url() ?>/news/gereja">Gereja</a></li>
 						<li><a href="<?php echo base_url() ?>/news/sektor">Sektor</a></li>
 					</ul>
 				</li>
-				<li><a href="<?php echo base_url() ?>/jemaat" id="jemaat">Informasi Jemaat</a></li>
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="schedule">Jadwal Ibadah
+				<li id="jemaat"><a href="<?php echo base_url() ?>/jemaat">Informasi Jemaat</a></li>
+				<li id="schedule" class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Jadwal Ibadah
 						<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="<?php echo base_url() ?>/schedule/gereja">Gereja</a></li>
@@ -40,7 +40,7 @@
 						<li><a href="<?php echo base_url() ?>/schedule/unit">Unit</a></li>
 					</ul>
 				</li>
-				<li><a href="#" id="contact">Contact Us</a></li>
+				<li id="contact"><a href="#">Contact Us</a></li>
 			</ul>
 		</div>
 	</nav>
