@@ -1,7 +1,7 @@
 var controllerActive;
 console.log(window.location.pathname.split('/')[1]);
 if(window.location.pathname.split('/')[1] != ""){
-    controllerActive = window.location.pathname.split('/');
+    controllerActive = window.location.pathname.split('/')[1];
 }
 
 window.onload = function() {
