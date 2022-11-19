@@ -31,8 +31,7 @@ class News extends BaseController
     {
         // return view('welcome_message');
         echo view("template/header");
-        echo view("schedule/unit");
+        echo view("news/unit");
         echo view("template/footer");
     }
-    
 }

@@ -28,6 +28,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="<?php echo base_url() ?>/news/gereja">Gereja</a></li>
 						<li><a href="<?php echo base_url() ?>/news/sektor">Sektor</a></li>
+						<li><a href="<?php echo base_url() ?>/news/unit">Unit</a></li>
 					</ul>
 				</li>
 				<li id="jemaat"><a href="<?php echo base_url() ?>/jemaat">Informasi Jemaat</a></li>

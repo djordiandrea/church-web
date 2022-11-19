@@ -45,6 +45,7 @@ $routes->get('/schedule/sektor', 'schedule::sektor');
 $routes->get('/schedule/unit', 'schedule::unit');
 $routes->get('/news/gereja', 'news::gereja');
 $routes->get('/news/sektor', 'news::sektor');
+$routes->get('/news/unit', 'news::unit');
 
 /*
  * --------------------------------------------------------------------

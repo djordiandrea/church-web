@@ -63,6 +63,9 @@
                         <a class="dropdown-item" href="<?php echo base_url() ?>/news/sektor">
                            <p style="color:black; font-family: 'Times New Roman'; ">Sektor</p>
                         </a>
+                        <a class="dropdown-item" href="<?php echo base_url() ?>/news/unit">
+                           <p style="color:black; font-family: 'Times New Roman'; ">Unit</p>
+                        </a>
                      </div>
                   </li>
                   <li id="jemaat"><a class="nav-link" href="<?php echo base_url() ?>/jemaat">Informasi Jemaat</a></li>
